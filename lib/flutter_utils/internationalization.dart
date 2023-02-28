@@ -915,10 +915,17 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'fr':
           'Bienvenue sur le tableau de bord de votre entreprise, consultez l\'activité ci-dessous.',
     },
+
     'lx1fbelp': {
-      'en': 'Button',
-      'fr': 'Bouton',
+      'en': 'Training Details Page',
+      'fr': 'Training Details Page',
     },
+
+        'rx6mdr8f': {
+      'en': 'Edit User Profile Page',
+      'fr': 'Edit User Profile Page',
+    },
+
     'kzazlyrg': {
       'en': 'Settings',
       'fr': 'Paramètres',

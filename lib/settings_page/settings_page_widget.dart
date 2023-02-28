@@ -132,33 +132,26 @@ class _SettingsPageWidgetState extends State<SettingsPageWidget> {
                                 ),
                               ),
                               Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
-                                    0, 20, 10, 0),
+                                padding: EdgeInsetsDirectional.fromSTEB(0, 20, 10, 0),
                                 child: FFButtonWidget(
                                   onPressed: () async {
                                     context.pushNamed('TrainingDetailsPage');
-                                    print('Button pressed ...');
                                   },
                                   text: FFLocalizations.of(context).getText(
-                                    'lx1fbelp' /* Button */,
+                                    'lx1fbelp' /* Training Details Page */,
                                   ),
                                   options: FFButtonOptions(
-                                    width: 130,
+                                    width: 180,
                                     height: 40,
-                                    color: FFTheme.of(context)
-                                        .primaryColor,
-                                    textStyle: FFTheme.of(context)
-                                        .subtitle2
-                                        .override(
-                                          fontFamily:
-                                              FFTheme.of(context)
-                                                  .subtitle2Family,
-                                          color: Colors.white,
-                                          useGoogleFonts: GoogleFonts.asMap()
-                                              .containsKey(
-                                                  FFTheme.of(context)
-                                                      .subtitle2Family),
-                                        ),
+                                    padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 0),
+                                    iconPadding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 0),
+                                    color: FFTheme.of(context).primaryColor,
+                                    textStyle: FFTheme.of(context).subtitle2.override(
+                                      fontFamily: FFTheme.of(context).subtitle2Family,
+                                      color: Colors.white,
+                                      useGoogleFonts: GoogleFonts.asMap()
+                                          .containsKey(FFTheme.of(context).subtitle2Family),
+                                    ),
                                     borderSide: BorderSide(
                                       color: Colors.transparent,
                                       width: 1,
@@ -167,6 +160,41 @@ class _SettingsPageWidgetState extends State<SettingsPageWidget> {
                                   ),
                                 ),
                               ),
+
+                              // Generated code for this Button Widget...
+                              Padding(
+                                padding: EdgeInsetsDirectional.fromSTEB(0, 20, 10, 0),
+                                child: FFButtonWidget(
+                                  onPressed: () async {
+                                    context.pushNamed('EditUserProfilePage');
+                                  },
+                                  text: FFLocalizations.of(context).getText(
+                                    'rx6mdr8f' /* Edit User Profile Page */,
+                                  ),
+                                  options: FFButtonOptions(
+                                    width: 180,
+                                    height: 40,
+                                    padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 0),
+                                    iconPadding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 0),
+                                    color: FFTheme.of(context).primaryColor,
+                                    textStyle: FFTheme.of(context).subtitle2.override(
+                                      fontFamily: FFTheme.of(context).subtitle2Family,
+                                      color: Colors.white,
+                                      useGoogleFonts: GoogleFonts.asMap()
+                                          .containsKey(FFTheme.of(context).subtitle2Family),
+                                    ),
+                                    borderSide: BorderSide(
+                                      color: Colors.transparent,
+                                      width: 1,
+                                    ),
+                                    borderRadius: BorderRadius.circular(8),
+                                  ),
+                                ),
+                              )
+
+
+
+
                             ],
                           ),
                         ),

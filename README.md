@@ -53,6 +53,7 @@ Flutter Web Bootstrap: Auto
 [GoRouter]   trainingdetailspage => /trainingDetailsPage
 [GoRouter]   lessonpage => /lessonPage
 [GoRouter]   settingspage => /settingsPage
+[GoRouter]   editUserProfilePage => /editUserProfilePage
 [GoRouter] setting initial location /
 [GoRouter] deep linking to /productDetailsPage
 [GoRouter] refreshing /productDetailsPage
