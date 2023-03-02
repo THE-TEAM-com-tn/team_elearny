@@ -1048,6 +1048,41 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'fr': 'Supprimer',
     },
   },
+
+
+// EditUserProfilePage
+
+  {
+    'edit_profile_text': {
+      'en': 'Edit Profile',
+      'fr': 'Modifier le profil',
+    },
+    'change_photo_text': {
+      'en': 'Change Photo',
+      'fr': 'Changer de photo',
+    },
+
+    'your_name_text': {
+      'en': 'Your Name',
+      'fr': 'Votre nom',
+    },
+    'email_address_text': {
+      'en': 'Email Address',
+      'fr': 'Adresse e-mail',
+    },
+    'your_bio_text': {
+      'en': 'Your bio',
+      'fr': 'Votre bio',
+    },
+    'save_changes_text': {
+      'en': 'Save Changes',
+      'fr': 'Enregistrer',
+    },
+  },
+
+
+
+
   // expandable_detail_component
   {
     'jhhrgpny': {

@@ -92,7 +92,7 @@ class _EditUserProfilePageWidgetState extends State<EditUserProfilePageWidget> {
                                   24.0, 0.0, 0.0, 10.0),
                               child: Text(
                                 FFLocalizations.of(context).getText(
-                                  'qsrv5qc6' /* Edit Profile */,
+                                  'edit_profile_text' /* Edit Profile */,
                                 ),
                                 style: FFTheme.of(context)
                                     .title2
@@ -198,7 +198,7 @@ class _EditUserProfilePageWidgetState extends State<EditUserProfilePageWidget> {
                       }
                     },
                     text: FFLocalizations.of(context).getText(
-                      'u64ypiij' /* Change Photo */,
+                      'change_photo_text' /* Change Photo */,
                     ),
                     options: FFButtonOptions(
                       width: 130.0,
@@ -235,7 +235,7 @@ class _EditUserProfilePageWidgetState extends State<EditUserProfilePageWidget> {
                 obscureText: false,
                 decoration: InputDecoration(
                   labelText: FFLocalizations.of(context).getText(
-                    '90qsy71v' /* Your Name */,
+                    'your_name_text' /* Your Name */,
                   ),
                   labelStyle: FFTheme.of(context).bodyText2,
                   hintStyle: FFTheme.of(context).bodyText2,
@@ -285,7 +285,7 @@ class _EditUserProfilePageWidgetState extends State<EditUserProfilePageWidget> {
                 obscureText: false,
                 decoration: InputDecoration(
                   labelText: FFLocalizations.of(context).getText(
-                    '62ow7hjo' /* Email Address */,
+                    'email_address_text' /* Email Address */,
                   ),
                   labelStyle: FFTheme.of(context).bodyText2,
                   hintStyle: FFTheme.of(context).bodyText2,
@@ -337,7 +337,7 @@ class _EditUserProfilePageWidgetState extends State<EditUserProfilePageWidget> {
                 decoration: InputDecoration(
                   labelStyle: FFTheme.of(context).bodyText2,
                   hintText: FFLocalizations.of(context).getText(
-                    'w9eo3ba5' /* Your bio */,
+                    'your_bio_text' /* Your bio */,
                   ),
                   hintStyle: FFTheme.of(context).bodyText2,
                   enabledBorder: OutlineInputBorder(
@@ -389,7 +389,7 @@ class _EditUserProfilePageWidgetState extends State<EditUserProfilePageWidget> {
                     context.pop();
                   },
                   text: FFLocalizations.of(context).getText(
-                    'o9wkx4t1' /* Save Changes */,
+                    'save_changes_text' /* Save Changes */,
                   ),
                   options: FFButtonOptions(
                     width: 340.0,

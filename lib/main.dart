@@ -111,6 +111,7 @@ class _NavBarPageState extends State<NavBarPage> {
       'LessonPage': LessonPageWidget(),
       'SettingsPage': SettingsPageWidget(),
       'SamplePage': SamplePageWidget(),
+      'EditUserProfilePage': EditUserProfilePageWidget(),
     };
     final currentIndex = tabs.keys.toList().indexOf(_currentPageName);
     return Scaffold(

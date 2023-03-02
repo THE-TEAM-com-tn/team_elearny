@@ -96,6 +96,12 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
                   ? NavBarPage(initialPage: 'LessonPage')
                   : LessonPageWidget(),
             ),
+
+            FFRoute(
+              name: 'EditUserProfilePage',
+              path: 'editUserProfilePage',
+              builder: (context, params) => EditUserProfilePageWidget(),
+            ),
             FFRoute(
               name: 'SettingsPage',
               path: 'settingsPage',
